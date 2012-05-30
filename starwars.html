@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Star Wars Canvas</title>
+    <script src="vendor/jquery-1.7.2.js"></script>
+    <script src="vendor/underscore.js"></script>
+    <script src="vendor/jquery.hotkeys.js"></script>
+    <script src="vendor/key_status.js"></script>
+    <script src="src/starwars.js"></script>
+</head>
+<body>
+
+<canvas id="starwars" width="640" height="480"></canvas>
+<p>Use the arrow keys on your keyboard to move</p>
+<script>
+    var game = new StarWars("starwars");
+    game.init();
+</script>
+
+</body>
+</html>
